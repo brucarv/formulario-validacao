@@ -1,11 +1,11 @@
-# Formulário com Validação
+## Sobre o Projeto - Formulário com Validação
 
 Este Projeto consiste em um formulário de cadastro de usuários com validação de dados no frontend (JavaScript) e no backend (Python/Flask), reforçando práticas de segurança e integridade das informações fornecidas.
 
 ---
-
 ### Estrutura do Projeto
 
+```
 formulario-validacao/
 ├── app.py
 ├── requirements.txt
@@ -14,14 +14,14 @@ formulario-validacao/
 │   └── index.html
 ├── static/
 │   └── script.js
-
+```
 ---
 
-## Requisitos
+### Requisitos
 - Python 3 instalado
 - Flask
 
-## Instalação
+### Instalação
 
 Clone o repositório e instale as dependências:
 
@@ -29,7 +29,7 @@ Clone o repositório e instale as dependências:
 pip install -r requirements.txt
 ```
 
-## Como Executar
+### Como Executar
 
 Inicie o servidor Flask:
 
