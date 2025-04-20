@@ -9,26 +9,35 @@
 
 ## Sobre o Projeto
 
-Este Projeto consiste em um formulário de cadastro de usuários com validação de dados no frontend (JavaScript) e no backend (Python/Flask), reforçando práticas de segurança e integridade das informações fornecidas.
+Este projeto consiste em um formulário de cadastro de usuários com validação de dados no frontend (JavaScript) e no backend (Python/Flask), reforçando práticas de segurança e integridade das informações fornecidas. Agora com autenticação segura usando **JWT** e login via **OAuth 2.0 (Google)**.
+
+### 🔐 Funcionalidades de Segurança
+
+- Validação de entrada (nome, e-mail, senha)
+- Geração de token JWT para rotas protegidas
+- Login via Google (OAuth 2.0) com `Flask-Dance`
 
 ---
 ### Estrutura do Projeto
 
 ```
-formulario-validacao/
-├── app.py
-├── requirements.txt
-├── README.md
-├── templates/
-│   └── index.html
-├── static/
-│   └── script.js
+formulario-validacao/ 
+├── app.py 
+├── requirements.txt 
+├── README.md 
+├── templates/ 
+│ └── index.html 
+├── static/ 
+│ └── script.js
+
 ```
 ---
 
 ### Requisitos
 - Python 3 instalado
 - Flask
+- Flask-Dance
+- PyJWT
 
 ### Instalação
 
