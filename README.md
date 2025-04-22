@@ -47,7 +47,7 @@ Clone o repositório e instale as dependências:
 pip install -r requirements.txt
 ```
 
-### Como Executar
+### Como Executar (Máquina Local)
 
 Inicie o servidor Flask:
 
@@ -60,3 +60,25 @@ Acesse no navegador:
 ```
 http://127.0.0.1:5000
 ```
+
+### Como Executar (Aplicação Docker)
+
+1. Construa a imagem Docker:
+No diretório onde estão os arquivos do projeto, execute o comando abaixo para construir a imagem Docker:
+
+```bash
+docker build -t my-app .
+```
+
+2. Execute o container
+
+```bash
+docker run -d -p 5000:5000 my-app
+```
+
+3. Acesse a aplicação:
+
+```
+http://localhost:5000
+```
+  
