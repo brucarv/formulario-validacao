@@ -24,6 +24,7 @@ Este projeto consiste em um formulário de cadastro de usuários com validação
 ```
 formulario-validacao/ 
 ├── app.py 
+├── Dockerfile
 ├── requirements.txt 
 ├── README.md 
 ├── templates/ 
