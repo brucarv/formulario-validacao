@@ -64,8 +64,9 @@ http://127.0.0.1:5000
 
 ### Como Executar (Aplicação Docker)
 
-1. Construa a imagem Docker:
-No diretório onde estão os arquivos do projeto, execute o comando abaixo para construir a imagem Docker:
+1. Construa a imagem Docker
+
+No diretório onde estão os arquivos do projeto, execute o comando abaixo para construir a imagem Docker
 
 ```bash
 docker build -t my-app .
